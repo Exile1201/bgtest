@@ -11,6 +11,7 @@
                         source.buffer = buffer;
                         source.connect(audioCtx.destination);
                         source.loop = false;
+                        source.volume = 0.5;
                     });
             source.start(0);
         });
